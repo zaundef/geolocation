@@ -1,5 +1,4 @@
 <h1>front env</h1>
-<hr>
 
 setup a front development environment that runs under grunt.
 <ol>
@@ -9,18 +8,17 @@ setup a front development environment that runs under grunt.
 </ol>
 
 <h2>How it works</h2>
-<hr>
 
 1. install npm
 ```js
 npm install
 ```
-
+<br>
 2. init repo
 ```js
 grunt init
 ```
-
+<br>
 3. update git repo to use your own
 ```
 git remote set-url origin my_own_git_repo_url
