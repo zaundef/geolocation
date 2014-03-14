@@ -2,7 +2,7 @@ $(document).ready(function() {
 	get_location();
 });
 
-var gApiKey = 'AIzaSyBhIkdNM0xgD9sO8GgRFvtHTGEXVF6sahw';
+var gApiKey = '{your_api_key}';
 var gMapsUrl = 'https://maps.googleapis.com/maps/api/geocode/json?sensor=false&key='+gApiKey;
 
 function get_location() {
