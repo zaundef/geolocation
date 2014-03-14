@@ -18,4 +18,6 @@ module.exports = function(grunt) {
 	});
 
 	grunt.registerTask('init', ['mkdir:base']);
+
+	grunt.registerTask('default', ['clean', 'copy:vendor', 'uglify', 'jade', 'stylus', 'autoprefixer', 'cssmin', 'connect', 'watch']);
 };
